@@ -1,0 +1,228 @@
+ body{
+    margin: 0;
+}
+
+/* Avia mainpage */
+.main{
+    background-image: url(airport5.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    height: 110vh;
+}
+header{
+    background: linear-gradient(to top, rgba(0,0,0,0.2)40%, rgba(0,0,0,0.2)40%);
+	background-size: contain;
+	color: black;
+	padding-top: 5px;
+    padding-bottom: 60px;
+}
+.logo{
+    display: flex;
+    color: orangered;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 60px;
+    font-family: Arial;
+    float:left;
+}
+ul{
+    float:left;
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    font-size: 15px;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+}
+ul li a:hover{
+    color: orangered;
+}
+.logout{
+    font-size: 15px;
+    float: right;
+    color: white;
+    margin-top: 15px;
+    margin-right: 25px;
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+}
+.profile{
+    font-size: 15px;
+    float: right;
+    color: white;
+    margin-top: 15px;
+    margin-right: 5px;
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+
+}
+
+
+
+/* Avia page Form for the booking details */
+.container{
+    padding-top: 70px;
+}
+#form{
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    height: 700px;
+    width: 700px;
+    margin: auto;
+    padding-top:15px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+}
+#form h4{
+    font-size: 35px;
+    border-bottom: 2px solid orangered;
+    width: 200px;
+    padding: 1px;
+}
+#input #input-group{
+    width: 290px;
+    height: 30px;
+    margin: 6px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+    background: transparent;
+    color: white;
+}
+#form h5{
+    color: white;
+    font-size: 35px;
+    border-bottom: 2px solid orangered;
+    width: 250px;
+    padding: 1px;
+}
+#form input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 35px;
+	background: orangered;
+	color: white;
+	font-size: 15px;
+	border-radius: 30px;
+	width: 50%;
+	
+}
+#form input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: black;
+}
+
+
+
+
+
+
+
+
+
+
+/* FrontPage main */
+.main1{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    height: 90vh;
+}
+h1{
+    padding-left: 7%;
+    padding-top: 3%;
+	font-size: 70px;
+	font-family: Arial;
+	color: orangered;
+}
+h4{
+    padding-left: 7%;
+    padding-top: 1%;
+    padding-right: 47%;
+    color: white;
+    font-size: 22px;
+}
+
+/* FrontPage form for login */
+.login{
+	width: 375px;
+	height: 540px;
+	background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+	top: 50%;
+	left: 75%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 30px 40px 30px;
+}
+h3{
+	text-align: center;
+	font-size: 40px;
+	font-style: italic;
+	color: orangered;
+}
+
+p{
+	font-size: 20px;
+    color: white;
+}
+.login input{
+	width: 250px;
+	margin-bottom: 12px;
+}
+.login input[type="name"],input[type="password"]
+{
+  border: none;
+  border-bottom: 1px solid black;
+  background: transparent;
+  outline: none;
+  height: 20px;
+  color: white;
+  font-size: 14px;
+
+}
+.btn
+{
+	border: none;
+	outline: none;
+	height: 45px;
+	background: orangered;
+	color: black;
+	font-size: 20px;
+	border-radius: 20px;
+	width: 100%;
+}
+.btn:hover
+{
+	cursor: pointer;
+	background: peachpuff;
+}
+.login a{
+	text-decoration: none;
+	font-size: 20px;
+	line-height: 20px;
+	color: white;
+}
+.login a:hover{
+	color: orangered;
+
+}
